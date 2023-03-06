@@ -1,0 +1,93 @@
+{
+  "hero": {
+    "hello": "Welcome to",
+    "dev": "Guardian Contract Services - Escrow"
+  },
+  "titles": {
+    "home": "Home",
+    "aboutme": "About Guardian",
+    "collections": "Collection",
+    "contructionremodeling": "Construction & Remodeling",
+    "custom": "Custom",
+    "softwaresourcecode": "Software Source Code",
+    "contact": "Contact"
+  },
+  "me": {
+    "intro": [
+      "Established in 1986, Guardian is a bonded Escrow Agent, licensed by the State of Oregon to perform escrow services. We take pride in providing efficient solutions for your escrow needs."
+    ],
+    "education": {
+      "title": "Escrow",
+      "edux": [
+        {
+          "title": "What is Escrow?",
+          "date": "",
+          "text": "Escrow is a legal arrangement whereby a neutral third party is brought into a transaction to help the principals perform as agreed. The transaction is completed with minimum risk because responsibility for handling the funds and or document is placed with a reliable party unaffected by the outcome and whose legal obligation is to safe guard the interests of both parties."
+        }
+      ]
+    },
+    "experience": {
+      "title": "Experience",
+      "edux": [
+        {
+          "title": "Airbus Defence and Space, Toulouse",
+          "date": "June 2016 - present",
+          "text": "Senior Software Architect\nSatellite Simulator Web GUI - React, Typescript, Golang, ZeroMQ, Protobuf"
+        },
+        {
+          "title": "Atos (for the French Navy), Toulon",
+          "date": "September 2013 - May 2016",
+          "text": "Software Developer\nTactical Data Link - Java, Spring, Ant"
+        }
+      ]
+    },
+    "skills": {
+      "title": "Skills"
+    }
+  },
+  "collections": {
+    "intro": {
+        "title": "Collections Escrow",
+        "subtitle": "Escrow Accounting Services for Private Contracts"
+    },
+    "whatwedo":{
+      "title": "What we do",
+      "services": [
+        "Act as a neutral third party between Buyer and Seller or Debtor and Creditor.",
+        "Process payment from the Buyer/Debtor quickly and accurately.",
+        "Provide account flexibility such as balloon payments, interest rate and payment changes, late charges and prepayment penalties.",
+        "Disburse funds according to instructions received from the Seller/Creditor.",
+        "Send a comprehensive statement of the account to the Seller/Creditor each time a payment is received.",
+        "Provide the Buyer/Debtor with an annual, itemized statement of the account.",
+        "Complete all interest income and expense reporting required by the IRS.",
+        "Furnish IRS Form 1098 and 1099 INT to the Buyer and Seller for tax purposes.",
+        "Setup reserve account for payment of taxes and insurance.",
+        "Safekeeping original documents."
+      ]
+    },
+    "whatitcosts": {
+      "title": "What it costs",
+      "cost": [
+        "The set-up cost is $100.00 for most contracts, including safekeeping of original documents. Monthly service charges start at $15.00 for an account with a monthly payment and one disbursement.",
+        "*Services to accommodate unique terms of some agreements are available based on special instructions. Additional fees are based on the services requested. Call (503) 684-6556 today for more details."
+      ]
+    }
+  },
+  "contact": {
+    "please": "Want to get in touch? Please fill out this form.",
+    "send": "Send",
+    "sent": "Sent",
+    "thanks": "Thank you for reaching out, I'll get back to you ASAP!",
+    "back": "Back."
+  },
+  "footer": {
+    "dev": "",
+    "links": "Links",
+    "legal": "Legal",
+    "madewith": "Made with",
+    "rights": "All rights reserved"
+  },
+  "blog": {
+    "wip": "I guess I need to blog..."
+  }
+}
