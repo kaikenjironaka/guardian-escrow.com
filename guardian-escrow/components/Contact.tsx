@@ -11,8 +11,15 @@ export default function Contact() {
         {t.titles.contact}
       </h1>
       <div>
-        {t.contact.please}
-        <form action="/send" class="space-y-3 py-3">
+        {t.guardian.hours.title} 
+        <br />
+        {t.guardian.hours.days}
+        <br />
+        {t.guardian.hours.hours}
+        <br />
+        {t.guardian.hours.closed}
+        
+        {/* <form action="/send" class="space-y-3 py-3">
           <div class="space-y-1">
             <label for="email" class="text-sm uppercase">
               Email
@@ -46,7 +53,7 @@ export default function Contact() {
             class="border(gray-500 1) hover:(bg-gray-200 dark:bg-gray-700) disabled:(opacity-50 cursor-not-allowed) cursor-pointer rounded-md bg-gray-100 px-3 py-2 active:bg-gray-300 dark:bg-gray-800"
             value={t.contact.send}
           />
-        </form>
+        </form> */}
       </div>
     </section>
   );
