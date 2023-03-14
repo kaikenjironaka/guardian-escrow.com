@@ -1,0 +1,163 @@
+{
+  "guardian": {
+    "hello": "Welcome to",
+    "dev": "Guardian Contract Services - Escrow",
+    "hours":{
+      "title": "Hours Of Operation:",
+      "days": "Monday thru Friday",
+      "hours": "9:30am to 4:30pm pst.",
+      "closed": "Closed on State and Federal Holidays"
+    }
+  },
+  "titles": {
+    "home": "Home",
+    "aboutme": "About Guardian",
+    "collections": "Collection",
+    "contructionremodeling": "Construction & Remodeling",
+    "custom": "Custom",
+    "softwaresourcecode": "Software Source Code",
+    "contact": "Contact",
+    "formsdocuments": "Forms and Documents"
+  },
+  "aboutguardian": {
+    "intro": [
+      "Established in 1986, Guardian is a bonded Escrow Agent, licensed by the State of Oregon to perform escrow services. We take pride in providing efficient solutions for your escrow needs."
+    ],
+    "escrow": {
+      "title": "Escrow",
+      "info": [
+        {
+          "title": "What is Escrow?",
+          "date": "",
+          "text": "Escrow is a legal arrangement whereby a neutral third party is brought into a transaction to help the principals perform as agreed. The transaction is completed with minimum risk because responsibility for handling the funds and or document is placed with a reliable party unaffected by the outcome and whose legal obligation is to safe guard the interests of both parties."
+        }
+      ]
+    }
+  },
+  "collections": {
+    "intro": {
+        "title": "Collections Escrow",
+        "subtitle": "Escrow Accounting Services for Private Contracts"
+    },
+    "whatwedo":{
+      "title": "What we do",
+      "services": [
+        "Act as a neutral third party between Buyer and Seller or Debtor and Creditor.",
+        "Process payment from the Buyer/Debtor quickly and accurately.",
+        "Provide account flexibility such as balloon payments, interest rate and payment changes, late charges and prepayment penalties.",
+        "Disburse funds according to instructions received from the Seller/Creditor.",
+        "Send a comprehensive statement of the account to the Seller/Creditor each time a payment is received.",
+        "Provide the Buyer/Debtor with an annual, itemized statement of the account.",
+        "Complete all interest income and expense reporting required by the IRS.",
+        "Furnish IRS Form 1098 and 1099 INT to the Buyer and Seller for tax purposes.",
+        "Setup reserve account for payment of taxes and insurance.",
+        "Safekeeping original documents."
+      ]
+    },
+    "whatitcosts": {
+      "title": "What it costs",
+      "cost": [
+        "The set-up cost is $100.00 for most contracts, including safekeeping of original documents. Monthly service charges start at $15.00 for an account with a monthly payment and one disbursement.",
+        "*Services to accommodate unique terms of some agreements are available based on special instructions. Additional fees are based on the services requested. Call (503) 684-6556 today for more details."
+      ]
+    }
+  },
+  "constructionremodeling": {
+    "howitworks": {
+      "title": "How it works",
+      "information": "Your client deposits with Guardian the funds needed for a new -construction or remodeling project. These funds are kept in an interest-bearing account until we receive a Draw Request co-signed by you and your client. The Draw Request authorizes us to pay the suppliers and /or subcontractors whose name and addresses are listed on the form. This data is entered into our software system. By compiling an accurate chronological record of all deposits, withdrawals, and disbursements. A copy of this history will be provided to both parties when the account is closed."
+    },
+    "deposits": {
+      "title": "Deposits",
+      "deposit_info": [
+        "Deposits other than Cashier's Checks or Money Orders require a hold of 5 business days to assure availability of funds.",
+        "Statements of interest earned on deposited funds will be provided at end of escrow."
+      ]
+    },
+    "drawrequests": {
+      "title": "Draw Requests",
+      "drinfo": [
+        "Draw Requests must be submitted on the forms provided by Guardian.",
+        "Up to three Draw Requests per month are included for the basic monthly fee.",
+        "Complete mailing addresses and invoices or reference numbers must be provided with Draw Requests to insure proper credit of payments made from the escrow.",
+        "Draw Requests must include all payment details and the appropriate signatures.",
+        "Draw Requests will be processed and disbursed by the next business day."
+      ]
+    },
+    "disbursements": {
+      "title": "Disbursements",
+      "dinfo": "Disbursements will be in the form of trust checks and will be sent by US Mail."
+    },
+    "Fees": {
+      "title": "Fees: Contact Guardian for Escrow Fee Quote  (503) 684-6556"
+    },
+    "monthly": {
+      "footer": "*Monthly service fees are not prorated for partial months of account activity *Monthly service fees may be deducted from deposited funds with client authorization."
+    },
+    "termspolicies":{
+      "terms": "Terms and Policies"
+    }
+  },
+  "customescrow":{
+    "title": "Custom Escrow",
+    "subtitle": "Custom Escrow Type", 
+    "customtypes": [
+      "Document SafeKeeping",
+      "Stock Pledge Escrows",
+      "Construction or Repair Escrows",
+      "Personal Property Transfer Escrow",
+      "Judgement or Lien Payment Escrows",
+      "Client Funds Escrow for Attorneys",
+      "One-Party Escrows for Documentation"
+    ],
+    "qualities": "* Experienced, established firm * Security and neutrality available only by using an escrow * Adaptable and responsive to client needs * Comprehensive, accurate recordkeeping * Outstanding protection at competitive fees"
+  },
+  "softwarecode":{
+    "title": "Software Source Code Escrow",
+    "subtitle": "Neutral third-party safekeeping of software product source code",
+    "services": {
+        "sub": "Services",
+        "info": "A Software Source Code Escrow with Guardian allows software product vendors to provide users with neutral third-party safekeeping. The vendor deposits machine-readable source code and printed user documentation insuring product support for the user in the event of unforeseen problems."
+    },
+    "benefits": {
+      "sub": "Benefits:",
+      "info": [
+        "Source code media and documentation stored in bank safe deposit facility.",
+        "Vendor may add updates to source code and documentation as required.",
+        "User may audit deposited material at safe deposit site.",
+        "Escrow instructions may be appended with specific terms regarding dispostion of source code."
+      ]
+    },
+    "cost":{
+      "title": "Cost:",
+      "info": "Call for price quote, (503) 684-6556."
+    }
+  },
+  "contact": {
+    "please": "Want to get in touch? Please fill out this form.",
+    "send": "Send",
+    "sent": "Sent",
+    "thanks": "Thank you for reaching out, I'll get back to you ASAP!",
+    "back": "Back."
+  },
+  "footer": {
+    "dev": "",
+    "links": "Links",
+    "legal": "Legal",
+    "madewith": "Made with",
+    "rights": "All rights reserved"
+  },
+  "login": {
+    "wip": "Login page being built..."
+  },
+  "formsdocument":{
+    "title": "Downloadable Forms",
+    "escrowcollectionpdf": "Escrow Collection PDF",
+    "autodeposit": "Automatic Deposit Form PDF",
+    "autopaymentform": "Automatic Payment Form PDF",
+    "customescrow": "Custom Escrow PDF",
+    "contructionescrow": "Construction Escrow PDF",
+    "drawreqeustspdf": "Draw Requests PDF", 
+    "softwareescrow": "Software Escrow PDF"
+  }
+}
