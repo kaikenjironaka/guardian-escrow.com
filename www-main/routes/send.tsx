@@ -14,19 +14,24 @@ export type ContactForm = {
 
 const NTFY_TOPIC = Deno.env.get("NTFY_TOPIC");
 if (NTFY_TOPIC === undefined) {
-  /*throw Error("NTFY_TOPIC environment variable must be set");*/
+  /* If the NTFY_TOPIC key is not set then we will set it too the NTFY guardian service we are subscribed too */
+  Deno.env.set("NTFY_TOPIC", "gcs_3scrow_s3rv1c3s");
+  console.log("lowercase:", Deno.env.get("NTFY_TOPIC"));
 }
 
 export function handle(searchParams: URLSearchParams) {
   if (searchParams.has("email") && searchParams.has("message")) {
     const email = searchParams.get("email")!;
     const message = searchParams.get("message")!;
+    
+    console.log("Post the NTFY message");
+    /* This is the post method to the free ntfy phone notifications.*/
     fetch(`https://ntfy.sh/${NTFY_TOPIC}`, {
-      method: "POST",
-      body: message,
-      headers: {
-        Title: `New message from ${email}`,
-      },
+       method: "POST",
+       body: message,
+       headers: {
+         Title: `New message from ${email}`,
+       },
     });
     return {
       email,
@@ -52,7 +57,7 @@ export const handler: Handlers<Data, State> = {
   },
 };
 
-export default function Blog(props: PageProps<Data>) {
+export default function Login(props: PageProps<Data>) {
   T.value = props.data.t;
   return (
     <>

@@ -74,6 +74,8 @@ export default function Collections() {
           {t.collections.whatwedo.services.map((p) => (
             <li class="text-justify">{p}</li>
           ))}
+          <br />
+          
           <h2 class="text-xl font-bold uppercase text-gray-600 dark:text-gray-400 ">
               {t.collections.whatitcosts.title}
           </h2>

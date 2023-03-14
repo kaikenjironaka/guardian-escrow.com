@@ -30,7 +30,7 @@ function LargeHeader(props: Omit<HeaderProps, "sticky">) {
                 href="/"
                 class="hover:(text-transparent dark:(from-cyan-400 to-teal-400)) bg-gradient-to-r from-cyan-500 to-teal-500 bg-clip-text"
               >
-                Guardian Contract Servies
+                Guardian Contract Services
               </a>
             </div>
           </li>
@@ -77,7 +77,7 @@ function LargeHeader(props: Omit<HeaderProps, "sticky">) {
 export default function Header(props: HeaderProps) {
   const menus = [
     { name: T.value!.titles.home, href: "/" },
-    { name: "Blog", href: "/blog" },
+    { name: "Login", href: "/login" },
   ];
   props.right = props.right ?? menus;
   return (

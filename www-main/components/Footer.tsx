@@ -13,41 +13,34 @@ export default function Footer() {
     {
       title: t.footer.links,
       children: [
-        { name: "Blog", href: "/blog" },
+        { name: "Login", href: "/login" },
         { name: "Contact", href: "/#contact" },
-        { name: "Pricing", href: "#" },
+        { name: "Home", href: "#" },
       ],
-    },
-    {
-      title: t.footer.legal,
-      children: [
-        { name: "Cookies", href: "#" },
-        { name: "SIRET", href: "#" },
-      ],
-    },
+    }
   ];
 
   const socials = [
-    {
-      icon: BrandLinkedin,
-      href: "https://www.linkedin.com/in/guillaumecomtep/",
-      ariaLabel: "LinkedIn",
-    },
-    {
-      icon: BrandMalt,
-      href: "https://www.malt.fr/profile/guillaumecomte2",
-      ariaLabel: "Malt",
-    },
-    {
-      icon: BrandGithub,
-      href: "https://github.com/guigui64",
-      ariaLabel: "GitHub",
-    },
-    {
-      icon: BrandTwitter,
-      href: "https://twitter.com/guillaumecomte",
-      ariaLabel: "Twitter",
-    },
+    // {
+    //   icon: BrandLinkedin,
+    //   href: "https://www.linkedin.com/in/guillaumecomtep/",
+    //   ariaLabel: "LinkedIn",
+    // },
+    // {
+    //   icon: BrandMalt,
+    //   href: "https://www.malt.fr/profile/guillaumecomte2",
+    //   ariaLabel: "Malt",
+    // },
+    // {
+    //   icon: BrandGithub,
+    //   href: "https://github.com/guigui64",
+    //   ariaLabel: "GitHub",
+    // },
+    // {
+    //   icon: BrandTwitter,
+    //   href: "https://twitter.com/guillaumecomte",
+    //   ariaLabel: "Twitter",
+    // },
   ];
 
   return (
@@ -101,6 +94,8 @@ export default function Footer() {
           <div class="text-sm">
             Copyright © {new Date().getFullYear()} Guardian Contract Services - Escrow
             <br />
+            P.O. Box 2316, Lake Oswego, OR 97035 | 7000 S.W. Hampton Suite 221| Tigard, OR 97223 | (503) 684-6556
+            <br/>
             {t.footer.rights}
           </div>
 
