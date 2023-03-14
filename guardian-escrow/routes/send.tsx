@@ -24,7 +24,7 @@ export function handle(searchParams: URLSearchParams) {
     const email = searchParams.get("email")!;
     const message = searchParams.get("message")!;
     
-    console.log("Post the NTFY message");
+    /*console.log("Post the NTFY message");*/
     /* This is the post method to the free ntfy phone notifications.*/
     fetch(`https://ntfy.sh/${NTFY_TOPIC}`, {
        method: "POST",
