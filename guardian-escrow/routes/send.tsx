@@ -16,7 +16,7 @@ const NTFY_TOPIC = Deno.env.get("NTFY_TOPIC");
 if (NTFY_TOPIC === undefined) {
   /* If the NTFY_TOPIC key is not set then we will set it too the NTFY guardian service we are subscribed too */
   Deno.env.set("NTFY_TOPIC", "gcs_3scrow_s3rv1c3s");
-  console.log("lowercase:", Deno.env.get("NTFY_TOPIC"));
+  /*console.log("lowercase:", Deno.env.get("NTFY_TOPIC"));*/
 }
 
 export function handle(searchParams: URLSearchParams) {
