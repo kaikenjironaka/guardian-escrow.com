@@ -30,7 +30,7 @@ return (
             {t.formsdocument.title}
       </h2>
       <ul class="space-y-2 list-disc">
-        <li class="text-justify text-cyan-500 hover:list-inside"><a href={asset("/GuardianCollectionEscrowForm2023.pdf")}>{t.formsdocument.escrowcollectionpdf}</a></li>
+        <li class="text-justify text-cyan-500 dark:md:hover:text-cyan-700"><a href={asset("/GuardianCollectionEscrowForm2023.pdf")}>{t.formsdocument.escrowcollectionpdf}</a></li>
         <li class="text-justify text-cyan-500 text-underline-offset: 1px;"><a href={asset("/Automatic Deposit Form.pdf")}>{t.formsdocument.autodeposit}</a></li>
         <li class="text-justify text-cyan-500 text-underline-offset: 1px;"><a href={asset("/Automatic Payment Form.pdf")}>{t.formsdocument.autopaymentform}</a></li>
         <li class="text-justify text-cyan-500 text-underline-offset: 1px;"><a href={asset("/GUARDIANCustomEscrow.pdf")}>{t.formsdocument.customescrow}</a></li>
