@@ -31,12 +31,12 @@ return (
       </h2>
       <ul class="space-y-2 list-disc">
         <li class="text-justify"><a href={asset("/GuardianCollectionEscrowForm2023.pdf")} class="hover:(text-transparent dark:(from-teal-400 to-cyan-400)) bg-gradient-to-r from-teal-500 to-cyan-500 bg-clip-text">{t.formsdocument.escrowcollectionpdf}</a></li>
-        <li class="text-justify text-cyan-500"><a href={asset("/Automatic Deposit Form.pdf")} class="hover:(text-transparent dark:(from-teal-400 to-cyan-400)) bg-gradient-to-r from-teal-500 to-cyan-500 bg-clip-text>{t.formsdocument.autodeposit}</a></li>
-        <li class="text-justify text-cyan-500"><a href={asset("/Automatic Payment Form.pdf")} class="hover:(text-transparent dark:(from-teal-400 to-cyan-400)) bg-gradient-to-r from-teal-500 to-cyan-500 bg-clip-text>{t.formsdocument.autopaymentform}</a></li>
-        <li class="text-justify text-cyan-500"><a href={asset("/GUARDIANCustomEscrow.pdf")} class="hover:(text-transparent dark:(from-teal-400 to-cyan-400)) bg-gradient-to-r from-teal-500 to-cyan-500 bg-clip-text>{t.formsdocument.customescrow}</a></li>
-        <li class="text-justify text-cyan-500"><a href={asset("/CONSTESCROW1-2.pdf")} class="hover:(text-transparent dark:(from-teal-400 to-cyan-400)) bg-gradient-to-r from-teal-500 to-cyan-500 bg-clip-text>{t.formsdocument.contructionescrow}</a></li>
-        <li class="text-justify text-cyan-500"><a href={asset("/DRAWREQUEST.pdf")} class="hover:(text-transparent dark:(from-teal-400 to-cyan-400)) bg-gradient-to-r from-teal-500 to-cyan-500 bg-clip-text>{t.formsdocument.drawreqeustspdf}</a></li>
-        <li class="text-justify text-cyan-500"><a href={asset("/ESCROW DEPOSITORY INSTRUCTIONS.doc")} class="hover:(text-transparent dark:(from-teal-400 to-cyan-400)) bg-gradient-to-r from-teal-500 to-cyan-500 bg-clip-text>{t.formsdocument.softwareescrow}</a></li>
+        <li class="text-justify"><a href={asset("/Automatic Deposit Form.pdf")} class="hover:(text-transparent dark:(from-teal-400 to-cyan-400)) bg-gradient-to-r from-teal-500 to-cyan-500 bg-clip-text>{t.formsdocument.autodeposit}</a></li>
+        <li class="text-justify"><a href={asset("/Automatic Payment Form.pdf")} class="hover:(text-transparent dark:(from-teal-400 to-cyan-400)) bg-gradient-to-r from-teal-500 to-cyan-500 bg-clip-text>{t.formsdocument.autopaymentform}</a></li>
+        <li class="text-justify"><a href={asset("/GUARDIANCustomEscrow.pdf")} class="hover:(text-transparent dark:(from-teal-400 to-cyan-400)) bg-gradient-to-r from-teal-500 to-cyan-500 bg-clip-text>{t.formsdocument.customescrow}</a></li>
+        <li class="text-justify"><a href={asset("/CONSTESCROW1-2.pdf")} class="hover:(text-transparent dark:(from-teal-400 to-cyan-400)) bg-gradient-to-r from-teal-500 to-cyan-500 bg-clip-text>{t.formsdocument.contructionescrow}</a></li>
+        <li class="text-justify"><a href={asset("/DRAWREQUEST.pdf")} class="hover:(text-transparent dark:(from-teal-400 to-cyan-400)) bg-gradient-to-r from-teal-500 to-cyan-500 bg-clip-text>{t.formsdocument.drawreqeustspdf}</a></li>
+        <li class="text-justify"><a href={asset("/ESCROW DEPOSITORY INSTRUCTIONS.doc")} class="hover:(text-transparent dark:(from-teal-400 to-cyan-400)) bg-gradient-to-r from-teal-500 to-cyan-500 bg-clip-text>{t.formsdocument.softwareescrow}</a></li>
       </ul>
     </div>
   </section>
