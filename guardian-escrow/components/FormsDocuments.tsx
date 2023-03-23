@@ -30,13 +30,13 @@ return (
             {t.formsdocument.title}
       </h2>
       <ul class="space-y-2 list-disc">
-        <li class="bg-violet-500 hover:bg-violet-600 active:bg-violet-700 focus:outline-none focus:ring focus:ring-violet-300"><a href={asset("/GuardianCollectionEscrowForm2023.pdf")}>{t.formsdocument.escrowcollectionpdf}</a></li>
-        <li class="text-justify bg-sky-500 hover:bg-sky-700"><a href={asset("/Automatic Deposit Form.pdf")}>{t.formsdocument.autodeposit}</a></li>
-        <li class="text-justify text-cyan-500 text-underline-offset: 1px;"><a href={asset("/Automatic Payment Form.pdf")}>{t.formsdocument.autopaymentform}</a></li>
-        <li class="text-justify text-cyan-500 text-underline-offset: 1px;"><a href={asset("/GUARDIANCustomEscrow.pdf")}>{t.formsdocument.customescrow}</a></li>
-        <li class="text-justify text-cyan-500 underline-offset-1"><a href={asset("/CONSTESCROW1-2.pdf")}>{t.formsdocument.contructionescrow}</a></li>
-        <li class="text-justify text-cyan-500 underline-offset-1"><a href={asset("/DRAWREQUEST.pdf")}>{t.formsdocument.drawreqeustspdf}</a></li>
-        <li class="text-justify text-cyan-500 underline-offset-1"><a href={asset("/ESCROW DEPOSITORY INSTRUCTIONS.doc")}>{t.formsdocument.softwareescrow}</a></li>
+        <li class="text-justify text-cyan-500"><a href={asset("/GuardianCollectionEscrowForm2023.pdf")}>{t.formsdocument.escrowcollectionpdf}</a></li>
+        <li class="text-justify text-cyan-500"><a href={asset("/Automatic Deposit Form.pdf")}>{t.formsdocument.autodeposit}</a></li>
+        <li class="text-justify text-cyan-500"><a href={asset("/Automatic Payment Form.pdf")}>{t.formsdocument.autopaymentform}</a></li>
+        <li class="text-justify text-cyan-500"><a href={asset("/GUARDIANCustomEscrow.pdf")}>{t.formsdocument.customescrow}</a></li>
+        <li class="text-justify text-cyan-500"><a href={asset("/CONSTESCROW1-2.pdf")}>{t.formsdocument.contructionescrow}</a></li>
+        <li class="text-justify text-cyan-500"><a href={asset("/DRAWREQUEST.pdf")}>{t.formsdocument.drawreqeustspdf}</a></li>
+        <li class="text-justify text-cyan-500"><a href={asset("/ESCROW DEPOSITORY INSTRUCTIONS.doc")}>{t.formsdocument.softwareescrow}</a></li>
       </ul>
     </div>
   </section>
